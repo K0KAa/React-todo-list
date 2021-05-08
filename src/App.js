@@ -47,6 +47,7 @@ class App extends Component {
               item={this.state.item}
               handleChange={this.handleChange}
               hanndleSubmit={this.handleSubmit}
+              editItem={this.state.editItem}
             />
             <TodoList
               items={this.state.items}
